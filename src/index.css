@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./fonts/ruberoid/stylesheet.css);
+@import url(./fonts/fonts.css);
+@import url(./css/media.css);
+@import url(./fonts/roboto/stylesheet.css);
+@import url(./css/keyframes.css);
+:root{
+  --size: calc(1vw + 1vh);
+  --card-width: 200px;
+  --card-height: 300px;
+  --card-transition-duration: 800ms;
+  --card-transition-easing: ease;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: NextArt;
+  -webkit-user-drag: none;
+}
+body{
+  background-color: #1A1A1B;
+  background-image: url('./img/bg1.png');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  backdrop-filter: grayscale(0);
+  overflow-x: hidden;
+}
+

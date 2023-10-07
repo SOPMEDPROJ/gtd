@@ -1,0 +1,9 @@
+@keyframes site-name {
+    from{
+        bottom: 100%;
+    }
+    to{
+        bottom: 0;
+    }
+    
+}

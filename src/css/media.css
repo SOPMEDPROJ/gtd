@@ -1,0 +1,126 @@
+:root{
+    --size: calc(1vw + 1vh)
+}
+@media screen and (max-width: 1500px) {
+    .course-status{
+        display: none;
+    }
+    .ellipses{
+        position: fixed;
+        right: -350px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    header div .longLogo {
+        display: none;
+    }
+    .main-info{
+        display: block !important;
+    }
+    .phone-img{
+        display: flex !important;
+    }
+}
+@media screen and (max-width: 905px) {
+    .cols2{
+        grid-column: span 1 / span 1 !important;
+    }
+}
+
+@media (max-width: 800px) {
+    header{
+        justify-content: space-between !important;
+        margin-right: 15px;
+    }
+    .header-menu{
+        display: none !important;
+    }
+    .logoShort{
+        display: none;
+    }
+    .menu-btn{
+        display: block !important;
+        /* width: calc(var(--size) * 3); */
+    }
+    .buy-course{
+        padding: 10px 20px !important;
+        /* font-size: calc(var(--size) * .9); */
+        border: #2DE6C0 solid 2px !important;
+    }
+    .buttons-main{
+        flex-direction: column;
+        width: 225px;
+        align-items: start;
+    }
+    .buyCourse2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .ellipses{
+        display: none;
+    }
+    .third{
+        grid-template-columns: 1fr !important;
+    }
+    .form-ul{
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+    .sendBtn{
+        top: -10px !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .site-name{
+        font-size: 64px !important;
+        margin-bottom: 10px !important;
+    }
+    .main{
+        grid-template-columns: 10px 1fr 10px !important;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .teachers-ul{
+        flex-direction: column !important;
+        gap: 20px;
+    }    
+    .learning-img{
+        transform: scale(1.2);
+    }
+    .contacts{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width: 600px){
+    .stat-img{
+        display: block !important;
+    }
+}
+@media (max-width: 510px) {
+    .learning-img{
+        transform: scale(1.5);
+    }
+    .gray-block, .dollarblock{
+        margin: 0 0 !important;
+        width: 87vw !important;
+    }
+}
+@media (max-width: 410px){
+    .packet{
+        position: relative !important;
+        right: 2vw;
+    }
+}
+@media (min-width: 768px) {
+    .button-background-move {
+      padding: 13px 50px 13px
+    }
+
+  }
+

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'NextArt';
+    src: url(./nextart/NEXT_ART_Regular.otf);
+}
+@font-face {
+    font-family: 'NextArtBold';
+    src: url(./nextart/NEXT_ART_Bold.otf);
+}
+@font-face {
+    font-family: 'NextArtSemiBold';
+    src: url(./nextart/NEXT_ART_SemiBold.otf);
+}
+@font-face {
+    font-family: 'NextArtLight';
+    src: url(./nextart/NEXT_ART_Light.otf);
+}
+@font-face {
+    font-family: 'NextArtHeavy';
+    src: url(./nextart/NEXT_ART_Heavy.otf);
+}
+@font-face {
+    font-family: 'Lufga';
+    src: url(./lufga/Lufga-Regular.otf);
+}
+@font-face {
+    font-family: 'Lufga Medium';
+    src: url(./lufga/Lufga-Medium.otf);
+}
